@@ -1,0 +1,20 @@
+/*
+* General
+*/
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  
+  font-weight: 300;
+  
+  letter-spacing: -1.2px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
