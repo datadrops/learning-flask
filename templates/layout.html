@@ -4,7 +4,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewpoint" content="width:device-width initial-scale=1">
-	<title>Learning Flask</title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,14 +15,14 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- CSS file -->
-	<link rel="stylesheet" type="text/css" href="{{ url_for("static", filename="css/main.css") }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
 
 </head>
 <body>
 	<header>
-		<div class="container-fluid header bg-primary">
+		<div class="container-fluid bg-primary">
 			<div class="title">
-				<a href="{{ url_for('index')}}" style="color: #FFF;text-decoration: none;cursor: default;"><h1>Learning Flask</h1></a>
+				<a href="{{ url_for('index') }}" style="color: #FFF;text-decoration: none;cursor: default;"><h2>Learning Flask</h2></a>
 			</div>
 		</div>
 	</header>

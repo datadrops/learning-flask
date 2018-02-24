@@ -1,20 +1,26 @@
-/*
-* General
-*/
-
 body {
-  background-color: #f4f4f4;
+	background-color: white;
+}
+
+.form-group label {
+  color: #3a3a3a;
+  display: block;
   font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
-h2 {
-  
-  font-weight: 300;
-  
-  letter-spacing: -1.2px;
+.form-group input {
+	border: none;
+	border-bottom: 2px solid #4285f4;
+	background-color: transparent;
+	color: #3a3a3a;
+	font-size: 18px;
+	padding: 5px 0;
+	width: 100%;
 }
 
-a {
-  text-decoration: none;
-  display: inline-block;
+.form-group input:focus {
+	outline: 0;
 }
